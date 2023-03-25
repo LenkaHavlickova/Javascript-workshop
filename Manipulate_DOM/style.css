@@ -1,0 +1,33 @@
+p{
+  font-size: 17px;
+  width: 600px;
+}
+
+h1 {
+  color: #F56D50;
+}
+
+h2 {
+  color: purple;
+}
+
+.violet {
+  color: violet;
+  text-decoration: underline;
+}
+
+.black {
+  text-decoration: underline;
+}
+
+li{
+  font-size: 17px;
+}
+
+ul{
+  list-style-type: square;
+}
+
+ol{
+  list-style-type: upper-roman;
+}
