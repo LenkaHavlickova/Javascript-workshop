@@ -3,9 +3,8 @@ $('.addTodo').click(()=> $('ul').append(
 )
 );
 
-$('li.item').on('click', 'li.item', function() {$('li.item').css('text-decoration', 'line-through')});
+$('ul').on('click', 'li', function() {$(this).css('text-decoration', 'line-through')});
 
-// $(function(){$('li.item').on('click', 'li.item', function() {$('li.item').css('text-decoration', 'line-through')})});
 
 
 
