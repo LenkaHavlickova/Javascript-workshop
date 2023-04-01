@@ -63,5 +63,31 @@ li {
     min-height: 20px;
 }
 
+.icon {
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    padding: 0;
+}
 
+.deleteButton, .doneButton {
+    background-color: white;
+    border: none;
+    padding: 0;
+}
+
+.itemContainer {
+    width: 300px;
+    position: relative;
+}
+
+.buttons {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+button {
+    cursor: pointer;
+}
 
