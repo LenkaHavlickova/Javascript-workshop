@@ -3,8 +3,8 @@ $('.addButton').click(()=> $('ul').append(
 )
 );
 
-$('ul').on('click', 'li', function() {$(this).css('text-decoration', 'line-through')});
 
-//text
+
+
 
 
