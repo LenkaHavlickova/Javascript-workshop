@@ -1,5 +1,5 @@
-$('.addTodo').click(()=> $('ul').append(
-`<li class='item'> ${$('.todo').val()}</li>`
+$('.addButton').click(()=> $('ul').append(
+`<li class='item'> ${$('.todoInput').val()}</li>`
 )
 );
 

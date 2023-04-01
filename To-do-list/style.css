@@ -1,0 +1,67 @@
+.container {
+    width: 500px;
+    margin: 100px auto;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px 0 20px 0;
+}
+
+body {
+    background-color: aquamarine;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: lightgray;
+    font-size: 50px;
+    font-weight: 100;
+}
+
+ul {
+    list-style-type: none;
+    text-align: left;
+    color: grey;
+    padding-left: 0;
+}
+
+.addButton {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #E35FD6;
+    color: white;  
+    font-weight: bold;
+    border: grey;
+    height: fit-content;
+    font-size: 20px;
+    }
+
+.todoInput {
+    color: grey;
+    border: none;
+    width: 250px;
+    font-size: 20px;
+    box-shadow: 0px 0px 4px 0px inset;    
+}
+
+.inputContainer {
+    border: grey 2px solid;
+    border-radius: 2px;
+    width: 300px;
+    margin: 20px auto;
+    display: flex;    
+}
+
+li {
+    font-size: 20px;
+}
+
+.todoContainer {
+    width: 300px;
+    margin: 0 auto;
+    text-align: left;
+    min-height: 20px;
+}
+
+
+
